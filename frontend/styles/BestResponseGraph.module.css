@@ -1,0 +1,41 @@
+.description {
+  margin-bottom: 16px;
+  color: #666;
+  font-size: 14px;
+}
+
+.graph {
+  width: 100%;
+  height: 600px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background: #f8f9fa;
+}
+
+.legend {
+  display: flex;
+  gap: 20px;
+  margin-top: 16px;
+  font-size: 14px;
+}
+
+.legendColor {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+.tooltip {
+  position: absolute;
+  padding: 8px;
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  border-radius: 4px;
+  pointer-events: none;
+  font-size: 12px;
+  z-index: 1000;
+}
+

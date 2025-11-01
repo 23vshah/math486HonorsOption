@@ -1,0 +1,19 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.subtitle {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.description {
+  margin-top: 8px;
+  color: #666;
+  font-size: 14px;
+  font-style: italic;
+}
+

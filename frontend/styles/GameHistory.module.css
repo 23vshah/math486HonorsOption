@@ -1,0 +1,35 @@
+.empty {
+  color: #666;
+  font-style: italic;
+  text-align: center;
+  padding: 20px;
+}
+
+.historyContainer {
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.historyTable {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.historyTable th,
+.historyTable td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.historyTable th {
+  background: #f8f9fa;
+  font-weight: 600;
+  position: sticky;
+  top: 0;
+}
+
+.historyTable tr:hover {
+  background: #f8f9fa;
+}
+

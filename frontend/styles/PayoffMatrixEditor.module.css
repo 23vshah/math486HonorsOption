@@ -1,0 +1,64 @@
+.matrixContainer {
+  overflow-x: auto;
+  margin: 20px 0;
+}
+
+.matrixTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+.matrixTable th,
+.matrixTable td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+.matrixTable th {
+  background: #f8f9fa;
+  font-weight: 600;
+}
+
+.cell {
+  position: relative;
+  min-width: 100px;
+}
+
+.cell:hover {
+  background: #f0f7ff;
+}
+
+.nashCell {
+  background: #fff3cd !important;
+  border: 2px solid #ffc107 !important;
+  font-weight: 600;
+}
+
+.highlightedCell {
+  background: #d1ecf1 !important;
+  border: 2px solid #0dcaf0 !important;
+}
+
+.legend {
+  display: flex;
+  gap: 20px;
+  margin-top: 16px;
+  flex-wrap: wrap;
+}
+
+.legendItem {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+}
+
+.legendColor {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #ddd;
+  border-radius: 2px;
+}
+

@@ -1,0 +1,25 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  user-select: none;
+}
+
+.header:hover {
+  opacity: 0.8;
+}
+
+.toggle {
+  font-size: 24px;
+  font-weight: bold;
+  color: #0070f3;
+}
+
+.content {
+  margin-top: 16px;
+  padding-top: 16px;
+  border-top: 1px solid #ddd;
+  line-height: 1.6;
+}
+

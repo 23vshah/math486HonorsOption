@@ -1,0 +1,50 @@
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.gameType {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+}
+
+.gameArea {
+  display: grid;
+  grid-template-columns: 1fr 400px;
+  gap: 20px;
+}
+
+.leftPanel,
+.rightPanel {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.playerSection {
+  margin-bottom: 20px;
+  padding: 15px;
+  background: #f8f9fa;
+  border-radius: 4px;
+}
+
+.playerSection h3 {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.payoff {
+  margin-top: 10px;
+  font-weight: 500;
+  color: #0070f3;
+}
+
+@media (max-width: 1024px) {
+  .gameArea {
+    grid-template-columns: 1fr;
+  }
+}
+
